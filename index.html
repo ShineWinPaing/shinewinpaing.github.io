@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">SHINE WIN PAING</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+    </nav>
+
+    <div id="home" class="home section">
+      <header class="hero">
+        <div class="hero-left">
+          <h2>Web <span>Developer</span></h2>
+          <p>IT Student</p>
+          <p class="skill-description">
+            My current technical skillset includes Java, Java GUI development
+            with Swing, and front-end proficiency in HTML and CSS. I am actively
+            engaged in learning the Java Spring Framework, MySQL, JavaScript and
+            AWS to enhance my ability to create comprehensive web applications.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#portfolio/projects" class="btn projects-btn"
+              >Projects <i class="fa-solid fa-code"></i
+            ></a>
+            <a
+              href="mailto:shinewinpaing818@gmail.com?subject=Hello&body=I%20saw%20your%20portfolio."
+              class="btn contact-btn"
+              >Contact <i class="fa-solid fa-address-card"></i
+            ></a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="cogwheel-container">
+            <!-- Floating particles -->
+            <div class="particle particle-1"></div>
+            <div class="particle particle-2"></div>
+            <div class="particle particle-3"></div>
+            <div class="particle particle-4"></div>
+            <div class="particle particle-5"></div>
+            <div class="particle particle-6"></div>
+
+            <!-- Main cogwheel -->
+            <div class="cogwheel">
+              <div class="cogwheel-inner">
+                <!-- Gear teeth -->
+                <div class="gear-tooth large"></div>
+                <div class="gear-tooth small"></div>
+                <div class="gear-tooth large"></div>
+                <div class="gear-tooth small"></div>
+                <div class="gear-tooth large"></div>
+                <div class="gear-tooth small"></div>
+                <div class="gear-tooth large"></div>
+                <div class="gear-tooth small"></div>
+                <div class="gear-tooth large"></div>
+                <div class="gear-tooth small"></div>
+                <div class="gear-tooth large"></div>
+                <div class="gear-tooth small"></div>
+                <div class="gear-tooth large"></div>
+                <div class="gear-tooth small"></div>
+                <div class="gear-tooth large"></div>
+                <div class="gear-tooth small"></div>
+                <div class="gear-tooth large"></div>
+                <div class="gear-tooth small"></div>
+                <div class="gear-tooth large"></div>
+                <div class="gear-tooth small"></div>
+
+                <!-- Center of the gear -->
+                <div class="gear-center"></div>
+              </div>
+            </div>
+
+            <!-- Small secondary cogwheel -->
+            <div class="small-cogwheel">
+              <div class="small-gear-tooth"></div>
+              <div class="small-gear-tooth"></div>
+              <div class="small-gear-tooth"></div>
+              <div class="small-gear-tooth"></div>
+              <div class="small-gear-tooth"></div>
+              <div class="small-gear-tooth"></div>
+              <div class="small-gear-tooth"></div>
+              <div class="small-gear-tooth"></div>
+              <div class="small-gear-tooth"></div>
+              <div class="small-gear-tooth"></div>
+              <div class="small-gear-tooth"></div>
+              <div class="small-gear-tooth"></div>
+              <div class="small-gear-center"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <section id="about" class="about-section">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>Hello, I'm</h2>
+          <h1>SHINE WIN PAING</h1>
+          <p>
+            An IT student who is captivated by the logical beauty of mathematics
+            and the exciting process of bringing ideas to life through code. I'm
+            eager to explore the intersection of these fields and driven by a
+            desire to learn, innovate, and make a positive impact in the digital
+            world.
+          </p>
+          <div class="about-buttons">
+            <a href="https://www.resume.id/shinewinpg818" class="btn primary"
+              >Resume <i class="fa-solid fa-file"></i
+            ></a>
+            <a href="#portfolio" class="btn secondary"
+              >Projects <i class="fa-solid fa-code"></i
+            ></a>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="circle-glow">
+            <img src="imgs/Frame 1.png" alt="Profile silhouette" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section">
+      <div class="portfolio-wrapper">
+        <!-- <h2 class="portfolio-title">My Portfolio</h2> -->
+        <p class="portfolio-description">
+          Explore some of my work, achievements, and tools I've used.
+        </p>
+        <div class="portfolio-tabs">
+          <button class="tab active" data-tab="projects">
+            Projects <i class="fa-solid fa-code"></i>
+          </button>
+          <button class="tab" data-tab="certificates">
+            Certificates <i class="fa-solid fa-certificate"></i>
+          </button>
+          <button class="tab" data-tab="techstack">
+            Tech Stack <i class="fa-solid fa-gears"></i>
+          </button>
+        </div>
+
+        <!-- Project Section -->
+        <div class="tab-content active" id="projects">
+          <div class="projects-grid">
+            <div class="projects-card">
+              <img src="imgs/triangle-app.png" alt="Certificate 1" />
+              <p>
+                <a
+                  href="https://github.com/ShineWinPaing/freshman-year-code-triangle-area.git"
+                  >Triangle Area Calculator</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate Section -->
+        <div class="tab-content" id="certificates">
+          <div class="certificates-grid">
+            <div class="certificate-card">
+              <img src="imgs/J-Ken.jpg" alt="Certificate 1" />
+              <p>情報活用試験（J検）３級</p>
+            </div>
+            <div class="certificate-card">
+              <img src="imgs/MOS-Excel.jpg" alt="Certificate 2" />
+              <p>Microsoft Official Specialist Excel</p>
+            </div>
+            <!-- <div class="certificate-card holographic-card">
+              <img src="imgs/TOEIC-L&R.jpg" alt="Certificate 2" />
+              <p>TOEIC Listening & Reading</p>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- Tech Stack Section with Carousel -->
+        <div class="tab-content" id="techstack">
+          <div class="techstack-carousel">
+            <button class="carousel-button prev" id="prevBtn">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <div class="carousel-container">
+              <div class="carousel-track" id="carouselTrack">
+                <div class="techstack-card">
+                  <i
+                    class="devicon-html5-plain colored"
+                    style="font-size: 3rem"
+                  ></i>
+                  <p>HTML5</p>
+                </div>
+                <div class="techstack-card">
+                  <i
+                    class="devicon-css3-plain colored"
+                    style="font-size: 3rem"
+                  ></i>
+                  <p>CSS3</p>
+                </div>
+                <div class="techstack-card">
+                  <i
+                    class="devicon-java-plain colored"
+                    style="font-size: 3rem"
+                  ></i>
+                  <p>Java</p>
+                </div>
+                <div class="techstack-card">
+                  <i
+                    class="devicon-javascript-plain colored"
+                    style="font-size: 3rem"
+                  ></i>
+                  <p>JavaScript</p>
+                </div>
+                <div class="techstack-card">
+                  <i
+                    class="devicon-mysql-plain colored"
+                    style="font-size: 3rem"
+                  ></i>
+                  <p>MySQL</p>
+                </div>
+                <div class="techstack-card">
+                  <i
+                    class="devicon-spring-original colored"
+                    style="font-size: 3rem"
+                  ></i>
+                  <p>Spring</p>
+                </div>
+
+                <!-- <div class="techstack-card">
+                  <i
+                    class="devicon-c-plain colored"
+                    style="font-size: 3rem"
+                  ></i>
+                  <p>C</p>
+                </div>
+                NOT LEARNED YET!!
+                -->
+
+                <div class="techstack-card">
+                  <i
+                    class="devicon-amazonwebservices-plain-wordmark colored"
+                    style="font-size: 3rem"
+                  ></i>
+                  <p>AWS</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-button next" id="nextBtn">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+            <div class="carousel-indicators" id="indicators"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a href="https://x.com/shine3141592" target="_blank" title="x">
+        <i class="devicon-twitter-original"></i>
+      </a>
+      <a href="https://github.com/ShineWinPaing" target="_blank" title="GitHub">
+        <i class="devicon-github-original"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/shine-win-paing-b1aa69351/"
+        target="_blank"
+        title="LinkedIn"
+      >
+        <i class="devicon-linkedin-plain"></i>
+      </a>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
